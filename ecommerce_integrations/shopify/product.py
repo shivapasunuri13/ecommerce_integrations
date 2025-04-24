@@ -333,7 +333,7 @@ def upload_erpnext_item(doc, method=None):
 	template_item = item = doc  # alias for readability
 	# a new item recieved from ecommerce_integrations is being inserted
 	# print the doc
-	print("upload_erpnext_item", doc)
+	print("This is the test log", doc)
 	if item.flags.from_integration:
 		return
 
