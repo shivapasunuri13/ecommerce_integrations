@@ -3,7 +3,7 @@
     <h2>Ecommerce Integrations for ERPNext</h2>
 
 [![CI](https://github.com/frappe/ecommerce_integrations/actions/workflows/ci.yml/badge.svg)](https://github.com/frappe/ecommerce_integrations/actions/workflows/ci.yml)
-  
+
 </div>
 
 ### Currently supported integrations:
@@ -46,3 +46,6 @@ After installation follow user documentation for each integration to set it up.
 #### License
 
 GNU GPL v3.0
+
+
+updated
