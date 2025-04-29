@@ -106,8 +106,7 @@ def store_request_data() -> None:
 
 
 def process_request(data, event):
-
-	# create log
+	print("Custom Processing request ", data, event)
 	log = create_shopify_log(method=EVENT_MAPPER[event], request_data=data)
 
 	# enqueue backround job

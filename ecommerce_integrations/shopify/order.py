@@ -31,6 +31,7 @@ DEFAULT_TAX_FIELDS = {
 
 def sync_sales_order(payload, request_id=None):
 	order = payload
+	print("Custom Syncing sales order", payload)
 	frappe.set_user("Administrator")
 	frappe.flags.request_id = request_id
 
